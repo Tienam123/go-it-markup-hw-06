@@ -732,6 +732,7 @@ h2.project-title {
 
 .container.footer {
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-page {
@@ -802,4 +803,63 @@ svg.social-item-twitter {
 .icon-list-footer a:focus,
 .icon-list-footer a:active {
   background-color: var(--success);
+}
+
+.footer-form {
+  margin-left: 40px;
+}
+
+.subtitle-form-container {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.footer-form-textplace {
+  display: block;
+  width: 264px;
+  height: 40px;
+
+  padding-left: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.footer-butonn-form {
+  display: flex;
+  padding: 8px 24px 8px 24px;
+
+  background-color: var(--primary-brand);
+  background-image: url(../images/icons.svg#icon-telegram);
+  padding-left: 20px;
+  border-radius: 4px;
+  color: #ffffff;
+  cursor: pointer;
+  border: 1px solid var(--primary-brand);
+}
+
+.footer-butonn-form:hover,
+.footer-butonn-form:focus {
+  background-color: var(--pressed-state);
+  border-color: var(--pressed-state);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.text-form-button {
+  display: inline-block;
+  margin-top: 3px;
+}
+
+.icon-button-form {
+  margin-left: 16px;
+  fill: currentColor;
+}
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 16px;
 }
