@@ -70,6 +70,70 @@
                 <use href="./images/icons.svg#icon-close"></use>
               </svg>
             </button>
+            <form class="modal-form" autocomplete="off">
+              <p class="modal-block-title">
+                Leave your contacts and we will call you back
+              </p>
+              <div class="name-input input-modal-block">
+                <label class="modal-form-input name" for="name" for="name"
+                  >Name</label
+                >
+                <div class="name">
+                  <input
+                    class="modal-form-input-textplace"
+                    type="text"
+                    id="name"
+                  />
+                  <svg class="icon-modal-person-icon" width="12" height="12">
+                    <use href="./images/icons.svg#icon-person"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="phone-input input-modal-block">
+                <label class="modal-form-input" for="phone">Phone</label>
+                <div class="phone">
+                  <input
+                    class="modal-form-input-textplace"
+                    type="tel"
+                    id="phone"
+                  />
+                  <svg class="icon-modal-person-phone" width="12" height="12">
+                      <use href="./images/icons.svg#icon-phone"></use>
+                    </svg>
+                </div>
+              </div>
+              <div class="mail-input input-modal-block">
+                <label class="modal-form-input" for="mail">E-Mail</label>
+               <div class="mail">
+                  <input
+                    class="modal-form-input-textplace"
+                    type="mail"
+                    id="mail"
+                  />
+                  <svg class="icon-modal-person-mail" width="12" height="12">
+                      <use href="./images/icons.svg#icon-mail"></use>
+                    </svg>
+               </div>
+              </div>
+              <div class="input-comment">
+                <label class="comment-input-title" for="">Comment</label>
+                <textarea
+                  class="comment-input"
+                  name=""
+                  id=""
+                  placeholder="Text input"
+                ></textarea>
+              </div>
+              <div class="accept-policy">
+                <label class="text-policy">
+                  <input class="checkbox" type="checkbox" />
+                  <span class="chexbox-image"></span>
+                  <span class="text-policy-content">I accept the terms and conditions of the</span>
+                  <a class="text-policy-link" href="">Privacy Policy</a>
+                  </label>
+              </div>
+              <button class="submit-form" type="submit">Send</button>
+            </form>
           </div>
         </div>
       </section>
@@ -420,20 +484,24 @@
           </ul>
         </div>
         <div class="footer-form">
-          <form method="post" class="footer-form-container">
-            <p class="subtitle-form-container">Subscribe</p>
+          <form class="footer-form-container">
             <div class="form-wrapper">
-              <input
-                type="mail"
-                class="footer-form-textplace"
-                placeholder="E-mail"
-              />
-              <button class="footer-butonn-form" type="submit">
-                <p class="text-form-button">Subscribe</p>
-                <svg class="icon-button-form" width="24" height="24">
-                  <use href="./images/icons.svg#icon-telegram"></use>
-                </svg>
-              </button>
+              <div class="form-input">
+                <label class="subtitle-form-container">Subscribe</label>
+                <input
+                  type="mail"
+                  class="footer-form-textplace"
+                  placeholder="E-mail"
+                />
+              </div>
+              <div class="footer-butonn-form-wrapper">
+                <button class="footer-butonn-form" type="submit">
+                  <p class="text-form-button">Subscribe</p>
+                  <svg class="icon-button-form" width="24" height="24">
+                    <use href="./images/icons.svg#icon-telegram"></use>
+                  </svg>
+                </button>
+              </div>
             </div>
           </form>
         </div>
